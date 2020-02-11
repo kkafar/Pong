@@ -25,7 +25,7 @@ int main()
 
 
     Ball ball({window.getSize().x / 2, window.getSize().y / 2});
-    ball.setVelocity(sf::Vector2<float>({0, -5}));
+    ball.setVelocity(sf::Vector2<float>({5, -2}));
 
     Wall upperWall({0, 0}, {window.getSize().x, 1}, U);
     Wall bottomWall({0, window.getSize().y - 1}, {window.getSize().x, 1}, B);
